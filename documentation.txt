@@ -1,0 +1,32 @@
+1. UI
+- Entry page 
+    - Todays cash sales
+    - Todays phonepay sales
+    - expenditure 
+        # of payment to : mention name  date will automatically be updated
+        # for other: also mention name and reason, date will be updated automatically
+        - lory bhado
+        - Bank 
+        - payment to  (should update total due amount,total cash,net profit cash)
+        - payment to vai google pay
+        - expenditure related to home 
+        - others
+- Data visualization page 
+    - Total stock 
+    - Total due amount
+    - Total cash 
+    - Net profit cash 
+    - Log data of every date 
+    - date based filter 
+    - total amount in bank 
+    - Total bank chiti
+2. Backend
+3. Sql Database
+    - Total sales (saleamt int, date date);
+    - Total stock (stock amount,date)
+    - Total cash (cash amount,date)
+    - Total due amount (due amount,date)
+    - expenditure related to home (reason, to , amount and date )
+    - payment to (to,amount,date)
+    - total phone pay cash
+
