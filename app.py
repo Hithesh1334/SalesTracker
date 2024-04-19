@@ -1,6 +1,6 @@
 import streamlit as st 
 
-from streamlit_option_menu import option_menu
+# from streamlit_option_menu import option_menu
 import pandas as pd
 from sql import *
 import base64
@@ -21,7 +21,7 @@ def set_background(png_file):
 # set_background('images/windowsImg.jpg')
 
 with st.sidebar:
-    selected = option_menu("Main Menu",["Home","TodaysEntry","Visiulize"],default_index=0, orientation="vertical")
+    selected = st.selectbox("Main Menu",["Home","TodaysEntry","Visiulize"])
 
 
 
